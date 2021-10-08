@@ -47,3 +47,83 @@ document.write(str1.substr(2,6), "<br>");
 document.write(str1.replace("Siliguri", "GokulNager"), "<br>");
 document.write(str1.toUpperCase(), "<br>");
 */
+//Relational Operators : ==, !=, <, >, >=
+//Logical Operators : &&, ||
+/*
+
+var age = prompt("What is your age");
+
+if (age<20 && age>=10)
+{
+
+	document.write("You go to the school");
+}
+
+else if(age<10 && age>3)
+{
+	document.write("You also go to the school");
+}
+
+else
+{
+	document.write("Do whatever you want");
+}
+*/
+/*
+var age = prompt("What is your age?");
+switch(age)
+{
+
+	case "22":
+		document.write("22 years old.. okay");
+		break;
+
+	case "21":
+		document.write("21 years old.. okay");
+		break;
+		
+
+	case "12":
+		document.write("12 years old.. okay");
+		break;
+		
+
+	default:
+		document.write("default years old.. okay");
+		break;			
+
+}
+
+var i =1;
+while(i<=100)
+{
+	document.write(i,"<br>");
+	i++;
+}
+
+
+var i =101;
+do
+{
+	document.write(i,"<br>");
+	i++;
+} while(i<=100)
+
+
+
+
+for (var i = 0; i < 2; i++) {
+	document.write(i,"<br>");
+}
+
+var books = ["Harry potter", "ncert", "ctci", 65];
+
+document.write(books[1]);
+
+
+function code(){
+    document.write("we catched this function");
+    console.log("we executed this function");
+}
+code();
+*/
